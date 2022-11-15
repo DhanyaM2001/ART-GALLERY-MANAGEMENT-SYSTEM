@@ -29,8 +29,24 @@ PHP,HTML,CSS,Java Script,Bootstrap.
 
 
 ## Screenshots
-
+>Add Product
 <img src="doc_img/add_product.jpg" width="500" height="280">
+>Admin Home page
+<img src="doc_img/admin_adsh.jpg" width="500" height="280">
+>Admin login
+<img src="doc_img/admin_login.jpg" width="500" height="280">
+>Blog
+<img src="doc_img/blog.jpg" width="500" height="280">
+>Feedback
+<img src="doc_img/feedback.jpg" width="500" height="280">
+>Welcome page
+<img src="doc_img/home.jpg" width="500" height="280">
+>Product list
+<img src="doc_img/product_view.jpg" width="500" height="280">
+>Subscription
+<img src="doc_img/subscription.jpg" width="500" height="280">
+>User login
+<img src="doc_img/user_login.jpg" width="500" height="280">
 
 ## Installation
 
@@ -42,3 +58,6 @@ Download latest version of xampp server.
 - import .sql file in xammp.
 - Go to browser type:localhost/project2/index.html.
 
+
+Hope this helps...any doubts please leave a comment below...!
+HAPPY CODING;)
