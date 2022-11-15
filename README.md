@@ -56,8 +56,8 @@ Download latest version of xampp server.
 - Step-2 : import .sql file in xammp.
 - Step-3 : Go to browser type:localhost/project2/index.html.
 - Step-4 : Please remember to replace your own razorpay credentials to see all the transcations in your own razorpay account(demo version)
-  >You can add your own keys in config.php file(Get the keys from official razorpay website)
-  >You can add your name in pay.php file
+  >You can add your own keys in config.php file(Get the keys from official razorpay website),
+  >You can add your name,email,number in pay.php file
 
 NOTE:
 Step-4 is OPTIONAL only if you want to implement demo subscription in your project follow this...
