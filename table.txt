@@ -1,0 +1,94 @@
+
+create database art_gallery;
+
+
+CREATE TABLE admin_reg(
+  adname varchar(20),
+  admin_id varchar(15),
+  admin_email_id varchar(25),
+  admin_mobile_no varchar(10),
+  admin_password varchar(20),
+  PRIMARY KEY(admin_id)
+);
+
+
+CREATE TABLE article(
+  id int(15),
+  title varchar(25),
+  content longtext,
+  image_file varchar(200),
+  article_date date,
+  PRIMARY KEY(id)
+);
+
+
+
+CREATE TABLE feedback(
+  user_id varchar(15),
+  fname text,
+  femail varchar(35),
+  phone varchar(10),
+  feedback tinytext,
+  suggestions text,
+  reg_date varchar(100)
+);
+
+
+CREATE TABLE interested(
+  user_id varchar(15),
+  pid int(50),
+  logintime varchar(100)
+);
+
+
+CREATE TABLE plan(
+  Plan_id varchar(100),
+  Plan_Description varchar(100),
+  Plan_Duration varchar(100),
+  Plan_Amount varchar(100),
+  plancontent mediumtext,
+  PRIMARY KEY(Plan_id)
+);
+
+
+CREATE TABLE product(
+  pid int(255),
+  admin_id varchar(255),
+  user_id varchar(500),
+  pname varchar(255),
+  artist_name varchar(255),
+  pyear int(255),
+  style varchar(255),
+  medium varchar(255),
+  subject varchar(255),
+  price varchar(255),
+  height int(50),
+  width int(50),
+  image varchar(500),
+  short_desc varchar(500),
+  long_desc varchar(500),
+  speciality varchar(500),
+  PRIMARY KEY(pid)
+);
+
+
+
+CREATE TABLE userplan(
+  Plan_id varchar(100),
+  Plan_Description varchar(100),
+  Plan_Duration varchar(100),
+  Plan_Amount varchar(100),
+  Plan_Start_Date varchar(100),
+  Plant_End_Date varchar(100),
+  Email_id varchar(100),
+  PRIMARY KEY(Plan_id)
+);
+
+CREATE TABLE user_reg(
+  name varchar(25),
+  user_id varchar(20),
+  email_id varchar(40),
+  mobile_no varchar(10),
+  password varchar(15),
+  PRIMARY KEY(user_id)
+);
