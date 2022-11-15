@@ -20,7 +20,7 @@ You now have the chance to see online art exhibitions at our Art Gallery. The On
 - Google re-Capcha api is used and it is mandatory while registering to our website.
 
 - Razor pay api is used for test mode payment.
-- 
+- Validation of all forms using JS
 ## Language Used
 
 PHP,HTML,CSS,Java Script,Bootstrap. 
@@ -29,8 +29,6 @@ PHP,HTML,CSS,Java Script,Bootstrap.
 
 
 ## Screenshots
->Add Product
-<img src="doc_img/add_product.jpg" width="500" height="280">
 >Admin Home page
 <img src="doc_img/admin_adsh.jpg" width="500" height="280">
 >Admin login
@@ -54,9 +52,18 @@ Download latest version of xampp server.
 
 ## Run Locally
 
-- Go to C drive -> xampp -> htdocs -> create project2 folder ->place all the downloaded files and folder.  
-- import .sql file in xammp.
-- Go to browser type:localhost/project2/index.html.
+- Step-1 : Go to C drive -> xampp -> htdocs -> create project2 folder ->place all the downloaded files and folder.  
+- Step-2 : import .sql file in xammp.
+- Step-3 : Go to browser type:localhost/project2/index.html.
+- Step-4 : Please remember to replace your own razorpay credentials to see all the transcations in your own razorpay account(demo version)
+  >You can add your own keys in config.php file(Get the keys from official razorpay website)
+  >You can add your name in pay.php file
+
+NOTE:
+Step-4 is OPTIONAL only if you want to implement demo subscription in your project follow this...
+This Payment will basically allows the user to see full details of product...initally all users have free subscription for 15 days(Check db as soon as you register a new user) after free subscription they can see only partial details, To update this they pay(for full details).
+
+If you want to make any changes in any page just see the url to know the file name
 
 
 Hope this helps...any doubts please leave a comment below...!
