@@ -170,10 +170,10 @@ else
 {
     $checkout ="manual";
 }
-$username="DHANYA M";
-$emailid='dhanyamanjunath111@gmail.com';
-$contact="9945878208";
-$address="blore";
+$username="Your Name";
+$emailid='Your email-id';
+$contact="Your number";
+$address="Your city";
 $data = [
     "key"               => $keyId,
     "amount"            => $amount,
